@@ -14,7 +14,7 @@ import { onMount } from "svelte";
 <article>
     <div id="landing">
         <div class="image">
-            <img src="media/kitaplık.jpg" alt="Book Shelf">
+            <img src="media/bookshelf.jpg" alt="Book Shelf">
             <div></div>
         </div>
         <div class="content">
