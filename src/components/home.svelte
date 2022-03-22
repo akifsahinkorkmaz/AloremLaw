@@ -14,7 +14,7 @@ import { onMount } from "svelte";
 <article>
     <div id="landing">
         <div class="image">
-            <img src="media/bookshelf.jpg" alt="Book Shelf">
+            <img src="./media/bookshelf.jpg" alt="Book Shelf">
             <div></div>
         </div>
         <div class="content">
@@ -44,7 +44,7 @@ import { onMount } from "svelte";
             <hr noshade="">
 
             <div class="member">
-                <img src="media/team1.png" alt="Team Member">
+                <img src="./media/team1.png" alt="Team Member">
                 <h3>Atty. Lorem Ipsum Dolor</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestiae unde atque, quaerat id, nihil repudiandae eius sed ab perspiciatis perferendis earum similique aspernatur aliquid itaque ipsam? Explicabo, incidunt ea. </p>
             </div>
@@ -52,7 +52,7 @@ import { onMount } from "svelte";
             <hr noshade="">
             
             <div class="member">
-                <img src="media/team2.png" alt="Team Member">
+                <img src="./media/team2.png" alt="Team Member">
                 <h3>Atty. Sitamet Consectetur</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam suscipit totam quia vero tenetur quasi reiciendis est dolorum perferendis labore laboriosam asperiores hic, excepturi quam fugiat corporis doloremque minus adipisci?</p>
             </div>
@@ -60,7 +60,7 @@ import { onMount } from "svelte";
             <hr noshade="">
 
             <div class="member">
-                <img src="media/team3.png" alt="Team Member">
+                <img src="./media/team3.png" alt="Team Member">
                 <h3>Lwy. Magnam Suscipit</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus maiores nostrum excepturi fugit amet voluptate praesentium aliquid reprehenderit natus facilis reiciendis, blanditiis debitis repellat soluta id explicabo dicta sit consequuntur!</p>
             </div>
@@ -68,7 +68,7 @@ import { onMount } from "svelte";
             <hr noshade="">
 
             <div class="member">
-                <img src="media/team4.png" alt="Team Member">
+                <img src="./media/team4.png" alt="Team Member">
                 <h3>Secy. Delectus Maiores</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aliquid veritatis omnis ipsam rem distinctio eius qui quibusdam minus temporibus consequatur obcaecati cupiditate fugiat earum eligendi incidunt, a itaque inventore.</p>
             </div>
@@ -76,7 +76,7 @@ import { onMount } from "svelte";
             <hr noshade="">
             
             <div class="member">
-                <img src="media/team5.png" alt="Team Member">
+                <img src="./media/team5.png" alt="Team Member">
                 <h3>Secy. Nisi Aliquid</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quaerat ea ratione voluptatibus dignissimos ullam, sapiente ex tempore dolorem libero debitis nulla earum consequatur excepturi illum ipsa corrupti error autem.</p>
             </div>
@@ -95,7 +95,7 @@ import { onMount } from "svelte";
             <hr noshade="">
 
             <div class="case">
-                <img src="media/team1.png" alt="Team Member">
+                <img src="./media/team1.png" alt="Team Member">
                 <h3>Atty. Lorem Ipsum Dolor</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestiae unde atque, quaerat id, nihil repudiandae eius sed ab perspiciatis perferendis earum similique aspernatur aliquid itaque ipsam? Explicabo, incidunt ea. </p>
             </div>
