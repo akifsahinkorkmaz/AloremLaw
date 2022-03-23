@@ -2,7 +2,6 @@
 	import Highnav from "./components/highnav.svelte";
 	import Contact from "./components/contact.svelte";
 	import Home from "./components/home.svelte";
-
 	
 </script>
 
@@ -10,6 +9,7 @@
 	<Highnav/>
 	<Home/>
 	<Contact/>
+
 </main>
 
 <style>
@@ -22,5 +22,4 @@ main{
 	overflow: hidden;
 	background: #141615;
 }
-
 </style>

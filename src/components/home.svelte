@@ -1,7 +1,6 @@
 <script>
-import { onMount } from "svelte";
-
-
+    import Footer from "./footer.svelte";
+    import { onMount } from "svelte";
     onMount(()=>{
         setTimeout(() => {
             if(window.confirm("This is an artistic project. See disclaimer below!")){
@@ -95,12 +94,26 @@ import { onMount } from "svelte";
             <hr noshade="">
 
             <div class="case">
-                <img src="media/team1.png" alt="Team Member">
-                <h3>Atty. Lorem Ipsum Dolor</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestiae unde atque, quaerat id, nihil repudiandae eius sed ab perspiciatis perferendis earum similique aspernatur aliquid itaque ipsam? Explicabo, incidunt ea. </p>
+                <img src="media/case1.jpg" alt="Coffe Shop">
+                <h3>Coffe Shop vs Municipality</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus aliquid deserunt quibusdam nesciunt perferendis maxime incidunt. Qui aspernatur at optio ad illo amet, aut dolorem, quo sed voluptates consequuntur voluptate? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga dolor iste nisi quae, maiores neque rem veniam sapiente repudiandae quia sequi non aperiam ratione facere deserunt itaque illum possimus eligendi!</p>
             </div>
 
-           
+            <hr noshade="">
+
+            <div class="case">
+                <img src="media/case2.jpg" alt="Clothing Shop">
+                <h3>Clothing Co. vs Mall</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, consectetur provident temporibus dolorem possimus, at sapiente minus debitis modi nisi dolore deserunt laborum consequatur impedit corrupti facilis quaerat vel eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis omnis provident quasi, aliquam perspiciatis ipsum quaerat deserunt quod voluptas dicta, veritatis ducimus vitae nostrum nam nihil adipisci id recusandae ea?</p>
+            </div>
+
+            <hr noshade="">
+
+            <div class="case">
+                <img src="media/case3.jpg" alt="Workers">
+                <h3>Workers vs Construction Co.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In numquam placeat cupiditate libero blanditiis aut ducimus! Corrupti quo sapiente numquam consequatur tenetur, nobis consectetur aperiam, vero sunt commodi recusandae libero? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium nihil, natus qui, tenetur porro repellat exercitationem aut ullam sit libero iste amet ipsum eligendi sunt sapiente illo placeat consectetur laboriosam.</p>
+            </div>
         </div>
        
     </div>
@@ -123,6 +136,9 @@ import { onMount } from "svelte";
         <h2>Disclaimer</h2>
         
     </div>
+
+    
+    <Footer/>
 </article>
 
 <style>
@@ -217,34 +233,53 @@ import { onMount } from "svelte";
         text-transform: capitalize;
     }
 
-    #team{
+    #team,
+    #cases{
+        margin-top: 3rem;
         margin-bottom: 2rem;
     } 
     #team > *,
-    #team .members > *{
+    #team .members > *,
+    #cases > *,
+    #cases .cases > *{
         margin-top: 1.2rem;
     }
-    #team hr{
+    #team hr,
+    #cases hr{
         height: 1px;
         border: none;
         background-color: #D5B36B;
     }
-    #team .member img{
+    #team .member img,
+    #cases .case img{
         display: block;
         margin: 0 auto;
         width: 90%;
         height: auto;
         border: 1px solid #D5B36B;
     }
-    #team .member h3{
+    #team .member h3,
+    #cases .case h3{
         color: #e3e3e3;
         text-align: center;
         margin-top: 1rem;
     }
     #team .member p{
         text-align: center;
+    }  
+    #cases .case img{
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+
+        min-height: 250px;
+        height: 40vh;
+        max-width: 400px;
+        object-fit: cover;
+
+        border: 1px solid #D5B36B;
     }
-    
+ 
     #disclaimer{
         max-width: 600px;
         margin: 0 auto;
@@ -263,6 +298,8 @@ import { onMount } from "svelte";
         padding-left: 1rem;
         text-align: left;
     }
+ 
+ 
     
     @media only screen and (min-width:600px){
         
@@ -297,13 +334,15 @@ import { onMount } from "svelte";
         .services p{
             font-size: medium;
         }
-        .members{
+        .members,
+        .cases{
             display: flex;
             align-items: baseline;
             justify-content: space-evenly;
             flex-wrap: wrap;
         }
-        #team hr{
+        #team hr,
+        #cases hr{
             display: none;
         }
         #team .member{
@@ -317,6 +356,20 @@ import { onMount } from "svelte";
             min-width: 250px;
             width: 35vw;
             max-width: 300px;
+        }
+
+
+        #cases .case{
+            min-width: 250px;
+            width: 40vw;
+            max-width: 500px;
+            margin: 1rem;
+            padding-bottom: 2rem;
+        }
+        #cases .case img{
+            min-width: 250px;
+            width: 40vw;
+            max-width: 500px;
         }
     }
 
@@ -332,14 +385,14 @@ import { onMount } from "svelte";
 
     @media only screen and (min-width:1080px){
         .services{
-            padding-right: 3rem;
+            padding-right: 10vw;
         }
         .services a {
-            padding: 0.8rem 2rem;
-            margin: 0.8rem 0.4rem;
+            padding: 0.6rem 1.5rem;
+            margin: 0.6rem 0.3rem;
         }
         .services p{
-            font-size: larger;
+            font-size: large;
         }
     }
 
