@@ -13,7 +13,7 @@
         margin-top: 3rem;
         height: 12vh;
         display: flex;
-        align-items: flex-start;
+        align-items: flex-end;
         justify-content: center;
         flex-wrap: wrap;
         background-color: #fff;
