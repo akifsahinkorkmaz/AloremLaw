@@ -11,12 +11,12 @@
     footer{
         width: 100vw;
         margin-top: 3rem;
-        height: 10vh;
+        height: 12vh;
         display: flex;
         align-items: flex-start;
         justify-content: center;
         flex-wrap: wrap;
-        background-color: #b8b8b8;
+        background-color: #fff;
 
         -webkit-box-shadow: inset -3px 0px 15px 3px rgba(20, 22, 21, 0.75);
         -moz-box-shadow: inset -3px 0px 15px 3px rgba(20, 22, 21, 0.75);
