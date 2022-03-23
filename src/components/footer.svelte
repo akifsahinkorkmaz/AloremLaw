@@ -18,9 +18,9 @@
         flex-wrap: wrap;
         background-color: #fff;
 
-        -webkit-box-shadow: inset -3px 0px 15px 3px rgba(20, 22, 21, 0.75);
-        -moz-box-shadow: inset -3px 0px 15px 3px rgba(20, 22, 21, 0.75);
-        box-shadow: inset -3px 0px 15px 3px rgba(20, 22, 21, 0.75);
+        -webkit-box-shadow: inset -3px 10px 15px 3px rgba(20, 22, 21, 0.75);
+        -moz-box-shadow: inset -3px 10px 15px 3px rgba(20, 22, 21, 0.75);
+        box-shadow: inset -3px 10px 15px 3px rgba(20, 22, 21, 0.75);
     }
     footer *{
         margin: 1rem;
