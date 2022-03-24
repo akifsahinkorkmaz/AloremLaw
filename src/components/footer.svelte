@@ -2,9 +2,8 @@
 </script>
 
 <footer>
-    <a href="mailto:akifsahinkorkmaz@outlook.com">akifsahinkorkmaz@outlook.com</a> 
-    <p>alorem law @2021</p>
-    <a href="https://github.com/akifsahinkorkmaz">my github</a>
+    <p>Alorem Law @2021</p>
+    <a href="https://github.com/akifsahinkorkmaz">dev's github</a>
 </footer>
 
 <style>
@@ -24,5 +23,8 @@
     }
     footer *{
         margin: 1rem;
+    }
+    a{
+        color: #D5B36B;
     }
 </style>

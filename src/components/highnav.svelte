@@ -60,13 +60,13 @@
 
     <ul bind:this={menu}>
         <li>
-            <a href="/">Services</a>
+            <a href="#team">About Us</a>
         </li>
         <li>
-            <a href="/">About Us</a>
+            <a href="#cases">Recent Cases</a>
         </li>
         <li>
-            <a href="/">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </li>
     </ul>
 </nav>

@@ -117,7 +117,39 @@
         </div>
        
     </div>
-
+    
+    <div id="contact-us">
+        <h2>Contact Us</h2>
+        <div class="contactus">
+            <div>
+                <a href="tel:" class="phone">
+                    <img src="media/phone.png" alt="phone">
+                    <p> (+1) 000 XXX XXXX </p>
+                </a>
+            
+                <a class="mail" href="mailto:">
+                    <img src="media/mail.png" alt="mail">
+                    <p> aloremlaw@l&a&w.com </p>
+                </a>
+        
+                <a class="address" href="https://www.google.com/maps/@36.6830063,-41.1422847,17z">
+                    <img src="media/pin.png" alt="phone">
+                    <p> Alorem Law Firm <br> Lorem ipsum Ave, #xxx <br> Sit-Amet City, Consectetur State, XXXXX <br> Eligendi / PLACEAT</p>
+                </a>
+            </div>
+        
+        
+            <div class="map">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe title="map" width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+   
 
     <div id="disclaimer">
         
@@ -137,7 +169,7 @@
         
     </div>
 
-    
+ 
     <Footer/>
 </article>
 
@@ -234,7 +266,8 @@
     }
 
     #team,
-    #cases{
+    #cases,
+    #contact-us{
         margin-top: 3rem;
         margin-bottom: 2rem;
     } 
@@ -279,7 +312,63 @@
 
         border: 1px solid #D5B36B;
     }
- 
+    
+    .contactus{
+        padding: 0 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #contact-us p {
+        margin: 0;
+    }
+    #contact-us a {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative;
+        
+        min-height: 2rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+
+        background: #D5B36B;
+        color: #141615;
+    }
+    #contact-us a img{
+        display: block;
+        height: 1.5rem;
+        width: auto;
+        margin-right: 1rem;
+    }
+    .mapouter{position:relative;text-align:right;
+        min-height: 250px;
+        height:35vw;
+        max-height: 600px;
+
+        min-width: 250px;
+        width: 35vw;
+        max-width: 600px;
+    }    
+    .gmap_canvas {overflow:hidden;background:none!important;
+        min-height: 250px;
+        height:35vw;
+        max-height: 600px;
+
+        min-width: 250px;
+        width: 35vw;
+        max-width: 600px;
+    }
+    .map{
+        padding: 1rem;
+        margin: 1rem;
+        background: #D5B36B;
+    }
+    .map iframe{
+        display: block;
+    }
+    
     #disclaimer{
         max-width: 600px;
         margin: 0 auto;

@@ -23,11 +23,11 @@
         <img src="media/phone.png" alt="phone">
     </a>
     
-    <a class="mail" href="mailto:akifsahinkorkmaz@outlook.com">
+    <a class="mail" href="mailto:">
         <img src="media/mail.png" alt="mail">
     </a>
 
-    <a class="contact" href="/">
+    <a class="contact" href="#contact-us">
         Contact Us
     </a>
 </div>
