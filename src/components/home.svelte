@@ -226,7 +226,9 @@
 
     .services,
     #team, 
-    #disclaimer{
+    #disclaimer,
+    #contact-us,
+    #cases{
         margin-top: 3rem;
         padding-right: 3rem;
         padding-left: 1rem;
